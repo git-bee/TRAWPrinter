@@ -48,7 +48,7 @@ Dan hasil pencetakannya ke printer *Epson LX-300+* adalah…
 
 ![](https://github.com/git-bee/TRAWPrinter/blob/master/output.png "TRawPrinter output result")
 
-Perhatikan isi memo dan bandingkan dengan hasil pencetakan! :) Betul… TRAWPrinter v.1.5 mendukung beberapa *tag* dasar HTML sehingga proses penyusunan teks yg akan dicetak menjadi lebih mudah. Anda gak perlu repot2 menghapalkan kode2 ESC untuk tiap jenis format teks. Fitur *tag* HTML ini hanya bisa digunakan untuk method `WriteList()1, sedang untuk method2 lainnya harus menggunakan cara seperti berikut:
+Perhatikan isi memo dan bandingkan dengan hasil pencetakan! :) Betul… TRAWPrinter v.1.5 mendukung beberapa *tag* dasar HTML sehingga proses penyusunan teks yg akan dicetak menjadi lebih mudah. Anda gak perlu repot2 menghapalkan kode2 ESC untuk tiap jenis format teks. Fitur *tag* HTML ini hanya bisa digunakan untuk method `WriteList()`, sedang untuk method2 lainnya harus menggunakan cara seperti berikut:
 
 ```pascal
   // font settings
